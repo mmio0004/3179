@@ -34,7 +34,7 @@ Cambodia,KHM,2019,25.8
 Cameroon,CMR,2019,34.8
 Canada,CAN,2019,24.3
 Cape Verde,CPV,2019,45.7
-Central African Republic,CAF,2019,39.5
+Central African Rep.,CAF,2019,39.5
 Central Asia and Southern Asia (UN SDG),,2019,32.2
 Chad,TCD,2019,35.1
 Chile,CHL,2019,39
@@ -44,12 +44,12 @@ Comoros,COM,2019,30
 Congo,COG,2019,38
 Cook Islands,COK,2019,44.6
 Costa Rica,CRI,2019,36
-Cote d'Ivoire,CIV,2019,36.9
+Côte d'Ivoire,CIV,2019,36.9
 Croatia,HRV,2019,51.4
 Cuba,CUB,2019,40.3
 Cyprus,CYP,2019,35.7
 Czechia,CZE,2019,49.1
-Democratic Republic of Congo,COD,2019,32.7
+Dem. Rep. Congo,COD,2019,32.7
 Denmark,DNK,2019,43.3
 Djibouti,DJI,2019,32.7
 Dominica,DMA,2019,45.5
@@ -172,7 +172,7 @@ Solomon Islands,SLB,2019,24.9
 Somalia,SOM,2019,33.4
 South Africa,ZAF,2019,43.8
 South Korea,KOR,2019,32
-South Sudan,SSD,2019,32.3
+S. Sudan,SSD,2019,32.3
 South-East Asia (WHO),,2019,31.7
 Spain,ESP,2019,33.5
 Sri Lanka,LKA,2019,34.4
