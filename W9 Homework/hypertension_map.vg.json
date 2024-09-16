@@ -13,7 +13,7 @@
             "lookup": "properties.NAME",
             "from": {
                 "data": {
-                    "url": "https://raw.githubusercontent.com/mmio0004/3179/main/male-high-blood-pressure-2019-cleaned.csv"
+                    "url": "https://raw.githubusercontent.com/mmio0004/3179/main/male-high-blood-pressure-2019.csv"
                 },                    
                 "key": "Entity",
                 "fields": ["Prevalence of hypertension among adults aged 30-79 years, age-standardized - Sex: male"]
@@ -27,8 +27,7 @@
             "type": "quantitative",
             "scale": {
                 "type": "threshold",
-                "domain": [20, 30, 40, 50, 60],
-                "range": ["lightblue", "lightgreen", "yellow", "orange", "red"]
+                "domain": [20, 30, 40, 50, 60]
             },
             "title": "Hypertension Prevalence (%)"
         },
