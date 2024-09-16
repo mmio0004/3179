@@ -9,14 +9,11 @@
       "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
     },
     "transform": [
-        {
-            "filter": "datum.Year == 2019"
-        },
       {
         "lookup": "properties.NAME",
         "from": {
           "data": {
-            "url": "https://raw.githubusercontent.com/mmio0004/3179/main/male-high-blood-pressure.csv"
+            "url": "https://raw.githubusercontent.com/mmio0004/3179/main/male-high-blood-pressure-2019.csv"
           },
           "key": "Entity",
           "fields": ["Prevalence of hypertension among adults aged 30-79 years, age-standardized - Sex: male"]
