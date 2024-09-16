@@ -1,4 +1,4 @@
-  {
+{
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "width": 800,
     "height": 400,
@@ -12,16 +12,26 @@
             },
             "transform": [
                 {
-                    "calculate": "'Data is not available in ' +datum.properties.NAME",
+                    "lookup": "properties.NAME",
+                    "from": {
+                        "data": {
+                            "url": "https://raw.githubusercontent.com/mmio0004/3179/main/male-high-blood-pressure-2019-V5.csv"
+                        },                    
+                        "key": "Entity",
+                        "fields": ["Prevalence of hypertension among adults aged 30-79 years, age-standardized - Sex: male"]
+                    },
+                    "calculate": "datum['Prevalence of hypertension among adults aged 30-79 years, age-standardized - Sex: male'] == null ? 'Data is not available in ' + datum.properties.NAME : null",
                     "as": "note"
                 }
             ],
             "mark": {
-                "type": "geoshape", 
+                "type": "geoshape",
                 "fill": "lightgray",
                 "stroke": "#909090"
             },
-            "encoding": {"tooltip": {"field": "note"}}
+            "encoding": {
+                "tooltip": {"field": "note"}
+            }
         },
         {
             "data": {
@@ -33,7 +43,7 @@
                     "lookup": "properties.NAME",
                     "from": {
                         "data": {
-                            "url": "https://raw.githubusercontent.com/mmio0004/3179/main/male-high-blood-pressure-2019-V4.csv"
+                            "url": "https://raw.githubusercontent.com/mmio0004/3179/main/male-high-blood-pressure-2019-V5.csv"
                         },                    
                         "key": "Entity",
                         "fields": ["Prevalence of hypertension among adults aged 30-79 years, age-standardized - Sex: male"]
